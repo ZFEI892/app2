@@ -1,0 +1,12 @@
+{
+  "name": "paper-grading-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "教师自用的试卷批改工具（本机运行，零第三方依赖）",
+  "type": "commonjs",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --no-warnings server/index.js",
+    "test": "node --no-warnings --test"
+  }
+}
